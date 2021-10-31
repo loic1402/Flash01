@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('font/blackjack-webfont.eot');
+    src: url('font/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/blackjack-webfont.woff2') format('woff2'),
+         url('font/blackjack-webfont.woff') format('woff'),
+         url('font/blackjack-webfont.ttf') format('truetype'),
+         url('font/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+        font-family: 'blackswordregular';
+        src: url('font/blacksword-webfont.woff2') format('woff2'),
+             url('font/blacksword-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;  
+
+}
+
+@font-face {
+    font-family: 'flashingregular';
+    src: url('font/flashing-webfont.woff2') format('woff2'),
+         url('font/flashing-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'signatra_demoregular';
+    src: url('font/signatra-webfont.woff2') format('woff2'),
+         url('font/signatra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'the_humble_scriptregular';
+    src: url('font/the_humble-webfont.woff2') format('woff2'),
+         url('font/the_humble-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: white; font-family: Arial, Helvetica, sans-serif;text-align: justify;width: auto;
+}
+.bloc {
+    width: 80%; margin: auto; padding: 25px; background-color: beige;
+}
+.tete{
+    border-bottom: 3px solid black;
+}
+.logo{
+    display: inline-block; margin: 5px; padding: 0px;
+}
+header h1{
+    display: inline-block; margin: 0px; padding: 0px; font-family:the_humble_scriptregular ,Arial, Helvetica, sans-serif ; font-size: 2.3em;
+}
+header h2{
+     margin-top: 0px; padding-top: 0px; font-family:blackswordregular ;display: inline-block;
+}
+nav{display: inline-block ; text-align: right; width: 78%; padding: 0px;
+}
+
+nav ul { 
+    list-style-type: none; margin-right: 10px;padding: 0px;margin: 0px;
+
+}
+nav li{
+    font-size: 1.3em; display: inline-block ; padding-top: 10px;padding: 0px;margin: 0px;
+}
+nav a{
+    text-decoration: none; color:#2d3436 ;padding: 3px;margin: 0px;
+}
+nav a:hover{
+    color: red; border-bottom: 3px solid red ; 
+}
+.bannier{
+    background: url('support.jpg') no-repeat center; height: 400px;width: auto;position: relative; padding: 0px; margin: 0px;top : 15px;
+} 
+.description{
+    position: absolute; bottom: 0px; margin-bottom: 0px; padding-bottom: 0px; display: inline-block; left: 20px;color: black ;
+     text-shadow:1px 1px 1px white;
+    font-family: sans-serif;
+}
+.composition{
+    width: 46%; height: 300px; padding-left:10px;
+}
+.cara{
+    width: 46%; height: 300px;padding-left: 70px;
+}
+.regulateur {
+    position:relative; left: 350px; top: 10px;
+}
+.onduleur {
+    position:relative; left: 300px; top: 10px;
+}
+.batterie {
+    position:relative; left: 190px; top: 10px; 
+}
+.connecteur{
+    position : relative; left : 260px;
+}
+.pied{
+    border-top: 3px solid black;
+}
+footer>p{
+    display: inline-block;position: relative; left: 380px;
+}
+footer>a{
+ position: relative; left: 380px; padding: 1px; 
+}
+a[class="fb"]{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.page{
+    background: #333;    background: url('electricien.jpg') no-repeat fixed center ;background-size: 100%
+}
+.container{
+    text-align: center; padding-top: 250px; color:white; text-shadow: 2px 2px 2px black;
+}
+.email-box{
+    display: flex ; height: 30px; justify-content: center; margin-left: 50px;
+} 
+div img{
+    margin-right: 5px;
+}
+.tbox , .btn{
+    border: none;outline: none;
+}
